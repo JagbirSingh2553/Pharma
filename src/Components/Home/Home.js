@@ -4,11 +4,11 @@ import png from '../../images/png.png';
 import pharma_logo from '../../images/pharma_logo.png';
 import Navbar from '../elements/NavBar/Navbar';
 import { Link } from 'react-router-dom';
-import Australia from '../../images/australia.png';
-import Philippines from '../../images/philippines-flag-icon-32.png';
-import SouthAfrica from '../../images/south-africa-flag-icon-16.png';
-import UAE from '../../images/united-arab-emirates-flag-icon-32.png';
-import Lesotho from '../../images/lesotho-flag-icon-32.png';
+import Australia from '../../images/download2.png';
+import Philippines from '../../images/download1.png';
+import SouthAfrica from '../../images/download.png';
+import UAE from '../../images/download3.png';
+import Lesotho from '../../images/download4.png';
 // import bgimage from '../../images/bgimage.png';
 class Home extends React.Component {
 render(){
@@ -83,7 +83,7 @@ render(){
             <div className="inline-button" >
                 <Link to="/formulation" >
                     <button className="btn" render='button' onClick={() => { console.log('hi') }} style={{textAlign:'center'}} >
-                        <span style={{textAlign:'center'}}> FORMULATION </span></button >
+                        <span style={{textAlign:'center',paddingRight:'10px'}}> FORMULATION </span></button >
                 </Link>
                 <Link to="/api" >
                     <button className="btn" alt="button" > API </button>

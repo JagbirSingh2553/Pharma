@@ -175,12 +175,12 @@
     .main {
         margin: 0%;
         padding: 0%;
-        background-size: cover;
+        background-size: auto;
         background-position: center center;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-image: url('../../images/bgimage.png');
-        height: 100vh;
+        height: auto;
         width: 100%;
     }
 

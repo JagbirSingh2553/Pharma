@@ -1,0 +1,32 @@
+.lady{
+    padding: 0px;
+    background-image: url('./corporateprofile_image/a.png');
+    background-position:center center;
+     height: 500px; 
+     /* width:700px; */
+     background-repeat: no-repeat;  
+    background-size: cover;
+}
+
+button{
+  color: #005c86;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 5%;
+}
+.Ownership{
+    color: black;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.manage{
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+    margin-top: 30px;
+}

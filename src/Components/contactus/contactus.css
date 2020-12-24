@@ -1,0 +1,32 @@
+/* *{margin: 0px;padding: 0px;
+    box-sizing: border-box;
+
+} */
+
+.jack {
+    border-radius: 40px;
+    box-shadow: 0px 0px 21px -7px black;
+}
+
+label{
+    margin: auto;
+}
+
+/* .gyan-main{
+    margin-left: 30px;
+    width: 300px;
+    transition: .5s;
+    padding: 10px;
+    box-shadow: 0px 0px 21px -7px black;
+    margin-bottom: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-bottom: 40px;
+    padding-top: 50px; 
+ }
+ 
+ .gyan-main:hover{
+     -ms-transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1); 
+ } */

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import { IconContext } from 'react-icons';
 import './navbar.css';
-import bgimage from '../../images/bgimage.png';
+// import bgimage from '../../../images/bgimage.png';
 
 
 function Navbar(props) {
@@ -14,7 +14,7 @@ function Navbar(props) {
     const showSidebar = () => setSidebar(!sidebar);
     return (
         <>
-            <IconContext.Provider value={{ color: 'cream white' }}>
+            <IconContext.Provider value={{ color: 'black' }}>
                 <div className="navbar">
                     <Link to="#" className='menu-bars'>
                         <FaIcons.FaBars onClick={showSidebar} />
@@ -32,7 +32,7 @@ function Navbar(props) {
                                 return (
                                     <li key={index} className={item.cName}>
                                         <Link to={item.path}>
-                                            {item.icon}
+                                            {/* {item.icon} */}
                                             <span>{item.title}</span>
                                         </Link>
                                     </li>

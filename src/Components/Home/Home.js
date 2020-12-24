@@ -1,72 +1,100 @@
-import React, { useState } from 'react';
-import SideNav, { MenuIcon } from 'react-simple-sidenav';
+import React from 'react';
 import './Home.css';
 import png from '../../images/png.png';
 import pharma_logo from '../../images/pharma_logo.png';
-import Navbar from '../NavBar/Navbar';
-import { useMediaQuery } from 'react-responsive';
+import Navbar from '../elements/NavBar/Navbar';
 import { Link } from 'react-router-dom';
+import Australia from '../../images/australia.png';
+import Philippines from '../../images/philippines-flag-icon-32.png';
+import SouthAfrica from '../../images/south-africa-flag-icon-16.png';
+import UAE from '../../images/united-arab-emirates-flag-icon-32.png';
+import Lesotho from '../../images/lesotho-flag-icon-32.png';
+// import bgimage from '../../images/bgimage.png';
+class Home extends React.Component {
+render(){
+    return (
+        // main div
+        <div className="main" >
 
+            <div style={{ display: 'inline-block', float: 'right' }} >
+                <ul className="nations" >
+                    <div style={{ display: 'inline-block', float: 'right', margin: '10px' }} >
+                        <li >
+                            <a herf="#" title="Australia" >
+                               <img className="flags" src={Australia}/> </a>
+                        </li>
+                    </div>
+                    <div style={{ display: 'inline-block', float: 'right', margin: '10px' }} >
+                        <li >
+                            <a herf="#" title="Philippines" >
+                            <img className="flags" src={Philippines}/></a> </li>
+                    </div>
+                    <div style={{ display: 'inline-block', float: 'right', margin: '10px' }} >
+                        <li >
+                            <a herf="#" title="South Africa" >
+                            <img className="flags" src={SouthAfrica}/></a> </li>
+                    </div>
+                    <div style={{ display: 'inline-block', float: 'right', margin: '10px' }} >
+                        <li >
+                            <a herf="#" title="UAE" >
+                            <img className="flags" src={UAE}/></a>
+                             </li> </div>
+                    <div style={{ display: 'inline-block', float: 'right', margin: '10px' }} >
+                        <li >
+                            <a herf="#" title="Lesotho" >
+                            <img className="flags" src={Lesotho}/>
+                            </a> </li>
+                    </div>
 
-const Home = (props) => {
+                </ul>
+            </div>
+            <Navbar />
 
-  console.log(props);
-  return (
+            { /* Logo Div */}
+            <div className="logomanage" >
+            <img className="logo" src={pharma_logo} />
+            </div>
 
-    // main div
-    <div className="main">
-      <Navbar
-      grid={{
-        gutter:16,
-          xs: '480px',
-          sm: '576px',
-          md: '768px',
-          lg: '992px',
-          xl: '1200px',
-          xxl: '1600px',
-      }}/>
-      {/* Logo Div */}
-      <div className="logomanage" >
-        <img className="logo" src={pharma_logo}></img>
-      </div>
+            { /* Infomation div */}
+            <div className="info" >
+                <div className="color" style={{ display: 'inline-block', fontSize: '' }} >
+                    We are <img className="img" src={png} />
+                    <div className="slash" > | </div>
+                     </div>
+                <div className="animation"
+                    style={
+                        { display: 'inline-block' }} > < a id="ani" > PHARMACEUTICAL </a></div >
+            </div>
 
-      {/* Infomation div */}
-      <div className="info">
-      <div className="color">
-        We are <img className="img" src={png}></img>
-        <div className="slash">|</div>
-      <div className="animation">PHARMACEUTICAL</div>
-      </div>
-      </div>
+            { /* tagline div */}
+            <div className="tagline" >
+                <div className="tag" >
+                    <h4 className="heading" > LIVE YOUR HEALTH STAR </h4>
+                    <div className="para" >
+                        <a > a phamaceutical company with a vsion to develop cost effective products </a>
+                    </div>
+                    <div className="para" >
+                        <a > to reduce the burden of ever increasing healthcare cost. </a>
+                    </div>
+                </div>
+            </div>
 
-      {/* tagline div */}
-      <div className="tagline">
-        <div className="tag">
-          LIVE YOUR HEALTH STAR
+            { /* button div */}
+            <div className="inline-button" >
+                <Link to="/formulation" >
+                    <button className="btn" render='button' onClick={() => { console.log('hi') }} style={{textAlign:'center'}} >
+                        <span style={{textAlign:'center'}}> FORMULATION </span></button >
+                </Link>
+                <Link to="/api" >
+                    <button className="btn" alt="button" > API </button>
+                </Link>
+                <Link to="/corporateprofile" >
+                    <button className="btn" alt="button" > CORP PROFILE </button>
+                </Link>
+            </div>
         </div>
-        <div className="para">
-          <a>a phamaceutical company with a vsion to develop cost effective products </a>
-        </div>
-        <div className="para">
-          <a className="para">to reduce the burden of ever increasing healthcare cost.</a>
-        </div>
-      </div>
-
-      {/* button div */}
-      <div className="inline-button">
-        <Link to="/Formulation">
-      <button className="btn" alt="button">FORMULATION</button>
-      </Link>
-      <Link to="/Api">
-      <button className="btn" alt="button">API</button>
-      </Link>
-      <Link to="/Corpprofile">
-      <button className="btn" alt="button">CORP PROFILE</button>
-      </Link>
-      </div>
-    </div>
-  );
-
+    );
+                    }
 };
 
 export default Home;

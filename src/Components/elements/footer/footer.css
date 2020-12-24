@@ -1,0 +1,23 @@
+footer {
+    background-color: black ;
+    background-color:  black ;  
+}
+.v1{
+  
+  border-left: 2px solid white;
+  opacity: 0.3;
+  height: 23px;
+  display: inline-block;
+  margin-left: 0px;
+ margin-bottom: -7px;
+ /* color: honeydew; */
+ 
+}
+span{
+    margin-left: 20px;
+}
+
+/* .middle-background{
+     background-image:linear-gradient(to right,#cce8e3,blue);
+     padding-bottom: 70px;
+} */

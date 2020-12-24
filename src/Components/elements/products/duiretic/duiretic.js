@@ -20,7 +20,7 @@ const Diuretics = () => {
             </div>
             <div className="container" style={{ paddingLeft: '20%'}} >
                 <div className="row " style={{ marginBottom: '10px', marginTop: '30px', marginLeft:'-150px' }}>
-                    <div className="diuretics-main" style={{backgroundColor:'white', marginTop:'50px'}}>
+                    <div className="diuretics-main" style={{backgroundColor:'white', marginTop:'50px', marginLeft:'-20px'}}>
                         <img src={aquanil} style={{ width: '240px',height:'200px' , marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
                         <span style={{ textAlign: 'center', marginBottom: '-3px', color: '#f4007b', textTransform: 'uppercase' }}>
                             <h3 style={{ fontWeight: '800', fontSize: '25px' }}>AQUANIL</h3>
@@ -29,7 +29,7 @@ const Diuretics = () => {
                             <p style={{ fontSize: '18px' }}>Volvovaginal Candidiasis</p>
                         </span>
                     </div>
-                    <div className="diuretics-main" style={{backgroundColor:'white', marginLeft:'55%', marginTop:'-61%'}}>
+                    <div className="diuretics-main" style={{backgroundColor:'white', marginLeft:'52%', marginTop:'-51%'}}>
                         <img src={caspilet} style={{ width: '240px',height:'200px', marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
                         <span style={{ textAlign: 'center', marginBottom: '-3px', color: '#f4007b', textTransform: 'uppercase' }}>
                             <h3 style={{ fontWeight: '800', fontSize: '25px' }}>CASPILET</h3>

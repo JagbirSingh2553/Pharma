@@ -29,7 +29,7 @@ const Diuretics = () => {
                             <p style={{ fontSize: '18px' }}>Volvovaginal Candidiasis</p>
                         </span>
                     </div>
-                    <div className="diuretics-main" style={{backgroundColor:'white', marginLeft:'52%', marginTop:'-51%'}}>
+                    <div className="diuretics-main" style={{backgroundColor:'white', marginLeft:'52%', marginTop:'-60.5%'}}>
                         <img src={caspilet} style={{ width: '240px',height:'200px', marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
                         <span style={{ textAlign: 'center', marginBottom: '-3px', color: '#f4007b', textTransform: 'uppercase' }}>
                             <h3 style={{ fontWeight: '800', fontSize: '25px' }}>CASPILET</h3>

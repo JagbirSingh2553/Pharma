@@ -30,7 +30,7 @@ const Gout = () => {
                             <p style={{marginTop:'20px',color:'black' ,fontSize:'13px'}}><span style={{fontWeight:'bold'}}>Packing:</span> Box  of 30 Tablets</p>
                         </span>
                     </div>
-                    <div className="gout-main" style={{backgroundColor:'white', marginLeft:'53%', marginTop:'-46%'}}>
+                    <div className="gout-main" style={{backgroundColor:'white', marginLeft:'53%', marginTop:'-54%'}}>
                         <img src={Macarth} style={{ width: '200px', marginLeft: 'auto', marginRight: 'auto', display: 'block', height:'200px' }} />
                         <span style={{ textAlign: 'center', marginBottom: '-3px', color: '#f4007b', textTransform: 'uppercase' }}>
                             <h3 style={{ fontWeight: '1000', fontSize: '50px' }}>MACARTH</h3>

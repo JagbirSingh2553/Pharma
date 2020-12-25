@@ -25,8 +25,8 @@ const Footer = () => {
                      ,marginLeft:'-15px',opacity: '0.3'}}>PHARMACEUTICAL</p></span>
           
               
-                <h4 style={{textAlign: 'center',fontSize: '20px',textAlign: 'center',color: 'white'}}> LIVE YOUR HEALTH STAR </h4>
-                      <p style={{color: 'white',fontSize: '12px',textAlign: 'center'}}>GROUP COMPANY OF INTERMAC</p>
+                <h4 id="h" style={{textAlign: 'center',fontSize: '20px',textAlign: 'center',color: 'white'}}> LIVE YOUR HEALTH STAR </h4>
+                      <p id="p" style={{color: 'white',fontSize: '12px',textAlign: 'center'}}>GROUP COMPANY OF INTERMAC</p>
               </div>
               <div className="col-sm-4 col-xs-4"></div>
             </div>

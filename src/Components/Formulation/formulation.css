@@ -70,28 +70,24 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.2); 
 }
-footer {
-    background-color: black ;
-    background-color:  black ;  
-}
-.v1{
-  
+
+/* .v1{
   border-left: 2px solid white;
   opacity: 0.3;
   height: 23px;
   display: inline-block;
   margin-left: 0px;
- margin-bottom: -7px;
- /* color: honeydew; */
- 
-}
-span{
+ margin-bottom: -7px; 
+} */
+/* span{
     margin-left: 20px;
-}
+} */
 
 .middle-background{
     background-color: #e5e9f7;
      padding-bottom: 70px;
+     padding-right: 0%;
+     width: 100%;
 }
 
 @media(max-width:700px){
@@ -100,36 +96,34 @@ span{
     }
 
     .generics{
-        margin-left: -200%;
-        margin-top: -45%;
-        margin-right: auto;
+        margin-left: -130%;
+        margin-top: -30%;
+        margin-right: 20%;
     }
     .goutmanagement{
-        margin-left: 26%;
-        margin-right: auto;
+        margin-left: 33%;
+        margin-right: 10%;
     }
     
     .dermatology{
-        margin-left: -90%;
-        margin-top: -20%;
-        margin-right: auto;
+        margin-left: -70%;
+        margin-top: -15%;
+        margin-right: 10%;
     }
     .diuretics{
         margin-top: -75%;
-        margin-left: 19%;
-        margin-right: auto;
+        margin-left: 25%;
+        margin-right: 10%;
     }
     .gyanecology{
-        margin-left: -200%;
-        margin-top: -10%;
-        margin-right: auto;
+        margin-left: -130%;
+        margin-top: -20%;
+        margin-right: 20%;
     }
     .vitamac{
-        margin-top: 20%;
-        margin-left: 30%;
-        margin-right: auto;
+        margin-top: 10%;
+        margin-left: 32%;
+        margin-right: 10%;
     }
-    .row{
-        text-align: center;
-    }
+    
 }

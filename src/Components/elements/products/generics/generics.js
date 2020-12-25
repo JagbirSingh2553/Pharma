@@ -15,8 +15,9 @@ const Generics = () => {
                     </div>
                 </div>
 
-                <div className="row" style={{backgroundColor: '#e5e9f7'}} >
+                <div className="row" style={{backgroundColor: '#e5e9f7', marginRight:'0px'}} >
           <div className="col-sm-12 col-xs-12">
+            <div className="resp-table">
             <table style={{marginLeft: '20%',marginTop: '5%',marginBottom:'3%'}}>
               <tr>
                 <th className="head1"><h4 style={{marginLeft: '20px'}}>ClassName</h4></th>
@@ -172,6 +173,7 @@ const Generics = () => {
                 <td style={{textTransorm:'Capitalize',borderColor: 'black'}}>Anastrazole Tablets 1 mg </td>
               </tr>
             </table>
+            </div>
          </div>
         </div>
 

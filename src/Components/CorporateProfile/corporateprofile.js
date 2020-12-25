@@ -105,7 +105,7 @@ const Corpprofile = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-sm-12 col-xs-12" style={{ backgroundColor: '#b63d37' }}>
+                    <div className="col-sm-12 col-xs-12" style={{ backgroundColor: '#b63d37', width:'100%' }}>
                         <div className="col-sm-6 col-xs-6">
                             <img src={c} style={{ height: '500px', width: '450px', marginTop: '30px', marginLeft: '20%' }} />
                         </div>

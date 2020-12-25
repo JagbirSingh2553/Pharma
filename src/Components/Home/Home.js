@@ -83,7 +83,7 @@ render(){
             <div className="inline-button" >
                 <Link to="/formulation" >
                     <button className="btn" render='button' onClick={() => { console.log('hi') }} style={{textAlign:'center'}} >
-                        <span style={{textAlign:'center',paddingRight:'10px'}}> FORMULATION </span></button >
+                        <span style={{textAlign:'center',paddingRight:'15px'}}> FORMULATION </span></button >
                 </Link>
                 <Link to="/api" >
                     <button className="btn" alt="button" > API </button>

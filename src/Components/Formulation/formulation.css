@@ -93,3 +93,43 @@ span{
     background-color: #e5e9f7;
      padding-bottom: 70px;
 }
+
+@media(max-width:700px){
+    .main_image{
+        opacity: 0%;
+    }
+
+    .generics{
+        margin-left: -200%;
+        margin-top: -45%;
+        margin-right: auto;
+    }
+    .goutmanagement{
+        margin-left: 26%;
+        margin-right: auto;
+    }
+    
+    .dermatology{
+        margin-left: -90%;
+        margin-top: -20%;
+        margin-right: auto;
+    }
+    .diuretics{
+        margin-top: -75%;
+        margin-left: 19%;
+        margin-right: auto;
+    }
+    .gyanecology{
+        margin-left: -200%;
+        margin-top: -10%;
+        margin-right: auto;
+    }
+    .vitamac{
+        margin-top: 20%;
+        margin-left: 30%;
+        margin-right: auto;
+    }
+    .row{
+        text-align: center;
+    }
+}

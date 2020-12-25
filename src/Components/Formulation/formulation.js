@@ -20,7 +20,7 @@ const Formulation = () => {
             {/* #######################MIDDELE CONTENT STARTS HERE#######################
         #####################################################################
         #####################################################################*/}
-            <div className="middle-background">
+            <div className="middle-background" style={{width:'100%'}}>
                 <div style={{ width: '100%' }}>
                     <div className="header-style" style={{ width: '100%' }}>
                         <div className="head">Formulation</div>
@@ -31,54 +31,66 @@ const Formulation = () => {
                 </div>
                 <div className="row" style={{ width: '100%'}}>
                     <div className="col-sm-4 col-xs-4" >
+                        <div className="generics">
                         <Link to="/generics">
-                            <img src={generics} className="image"
+                            <img src={generics} className="img"
                                 style={{ width: '250px', transition: '.5s', height: '80px', marginLeft: '70%', marginTop: '20%' }} />
                         </Link>
+                        </div>
                     </div>
                     <div className="col-sm-4 col-xs-4" ></div>
                     <div className="col-sm-4 col-xs-4" >
+                        <div className="goutmanagement">
                         <Link to="/goutmanagement">
                             <img src={goutmanagement} className="image"
                                 style={{ width: '250px', transition: '.5s', height: '80px', marginTop: '20%', marginLeft: '-30%' }} />
                         </Link>
+                        </div>
                     </div>
                 </div>
 
                 <div className="row" style={{ width: '100%' }} >
                     <div className="col-sm-4 col-xs-4" >
+                        <div className="dermatology">
                         <Link to="/">
                             <img src={dermatology} className="image"
                                 style={{ width: '250px', transition: '.5s', height: '80px', marginLeft: '54%', marginTop: '18%' }} />
                         </Link>
+                        </div>
                     </div>
                     <div className="col-sm-4 col-xs-4" style={{ width: '32.333333%' }} >
                         <Link to="/">
-                            <img src={main}
+                            <img src={main} className="main_image"
                                 style={{ width: '400px', height: '270px', paddingRight: '20px', marginTop: '-20px', marginLeft: '20px' }} />
                         </Link>
                     </div>
 
                     <div className="col-sm-4 col-xs-4" >
+                        <div className="diuretics">
                         <Link to="/diuretics">
                             <img src={diuretics} className="image"
                                 style={{ width: '250px', transition: '.5s', height: '80px', marginTop: '18%', marginLeft: '-14% ' }} />
                         </Link>
+                        </div>
                     </div>
                 </div>
 
                 <div className="row" style={{ width: '100%' }}>
                     <div className="col-sm-4 col-xs-4" >
+                        <div className="gyanecology">
                         <Link to="/gyanecology">
                             <img src={gyanecology} className="image"
                                 style={{ width: '250px', transition: '.5s', height: '80px', marginLeft: '70%', marginTop: '-5%' }} />
                         </Link>
+                        </div>
                     </div>
                     <div className="col-sm-4 col-xs-4" ></div>
                     <div className="col-sm-4 col-xs-4" >
+                        <div className="vitamac">
                         <Link to="/"><img src={vitamac} className="image"
                             style={{ width: '250px', transition: '.5s', height: '80px', marginTop: '-5%', marginLeft: '-29%' }} />
                         </Link>
+                        </div>
                     </div>
                 </div>
             </div>

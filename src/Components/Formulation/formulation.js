@@ -24,6 +24,7 @@ const Formulation = () => {
                 <div style={{ width: '100%' }}>
                     <div className="header-style" style={{ width: '100%',margin:'0%', padding:'0%' }}>
                         <div className="head">Formulation</div>
+                        <div className="under">_</div>
                         <div className="content">
                             <a>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</a>
                         </div>
@@ -34,7 +35,7 @@ const Formulation = () => {
                         <div className="generics">
                         <Link to="/generics">
                             <img src={generics} className="image"
-                                style={{ width: '250px', transition: '.5s', height: '80px', marginLeft: '70%', marginTop: '20%' }} />
+                                style={{ width: '280px', transition: '.5s', height: '100px', marginLeft: '68%', marginTop: '21%' }} />
                         </Link>
                         </div>
                     </div>
@@ -43,7 +44,7 @@ const Formulation = () => {
                         <div className="goutmanagement">
                         <Link to="/goutmanagement">
                             <img src={goutmanagement} className="image"
-                                style={{ width: '250px', transition: '.5s', height: '80px', marginTop: '20%', marginLeft: '-30%' }} />
+                                style={{ width: '280px', transition: '.5s', height: '100px', marginTop: '21%', marginLeft: '-35%' }} />
                         </Link>
                         </div>
                     </div>
@@ -54,7 +55,7 @@ const Formulation = () => {
                         <div className="dermatology">
                         <Link to="/">
                             <img src={dermatology} className="image"
-                                style={{ width: '250px', transition: '.5s', height: '80px', marginLeft: '54%', marginTop: '18%' }} />
+                                style={{ width: '280px', transition: '.5s', height: '100px', marginLeft: '49%', marginTop: '15%' }} />
                         </Link>
                         </div>
                     </div>
@@ -69,7 +70,7 @@ const Formulation = () => {
                         <div className="diuretics">
                         <Link to="/diuretics">
                             <img src={diuretics} className="image"
-                                style={{ width: '250px', transition: '.5s', height: '80px', marginTop: '18%', marginLeft: '-14% ' }} />
+                                style={{ width: '280px', transition: '.5s', height: '100px', marginTop: '17%', marginLeft: '-16% ' }} />
                         </Link>
                         </div>
                     </div>
@@ -80,7 +81,7 @@ const Formulation = () => {
                         <div className="gyanecology">
                         <Link to="/gyanecology">
                             <img src={gyanecology} className="image"
-                                style={{ width: '250px', transition: '.5s', height: '80px', marginLeft: '70%', marginTop: '-5%' }} />
+                                style={{ width: '280px', transition: '.5s', height: '100px', marginLeft: '67%', marginTop: '-5%' }} />
                         </Link>
                         </div>
                     </div>
@@ -88,7 +89,7 @@ const Formulation = () => {
                     <div className="col-sm-4 col-xs-4" >
                         <div className="vitamac">
                         <Link to="/"><img src={vitamac} className="image"
-                            style={{ width: '250px', transition: '.5s', height: '80px', marginTop: '-5%', marginLeft: '-29%' }} />
+                            style={{ width: '280px', transition: '.5s', height: '100px', marginTop: '-5%', marginLeft: '-34%' }} />
                         </Link>
                         </div>
                     </div>

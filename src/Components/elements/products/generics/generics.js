@@ -19,11 +19,14 @@ const Generics = () => {
           <div className="col-sm-12 col-xs-12">
             <div className="resp-table">
             <table style={{marginLeft: '20%',marginTop: '5%',marginBottom:'3%'}}>
+             <thead>
               <tr>
                 <th className="head1"><h4 style={{marginLeft: '20px'}}>ClassName</h4></th>
                 <th className="head2"><h4 style={{marginLeft: '20px'}}>Generic Name</h4></th>
                 
               </tr>
+              </thead>
+              <tbody>
               <tr>
                 <td  style={{marginTop: '10px'}}>Allergy</td>
                 <td>Montelukast + Levocetirizine Tablet (10+5)mg</td>
@@ -172,6 +175,7 @@ const Generics = () => {
                 <td style={{borderColor: 'black'}}>Proton Pump Inhibitor</td>
                 <td style={{textTransorm:'Capitalize',borderColor: 'black'}}>Anastrazole Tablets 1 mg </td>
               </tr>
+              </tbody>
             </table>
             </div>
          </div>

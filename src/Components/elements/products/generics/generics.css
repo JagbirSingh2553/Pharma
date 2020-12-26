@@ -46,7 +46,12 @@ table {
     margin-top: '5%';
     margin-bottom:'3%';
   } */
+  .row{
+    width: 100%;
+    margin: 0%;
+  }
   .resp-table{
-    margin-left: -19.4%;
+    margin-left: -20.4%;
+    width: 100%;
   }
 }

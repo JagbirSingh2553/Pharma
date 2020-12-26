@@ -18,8 +18,9 @@ const Gout = () => {
                     </div>
                 </div>
             </div>
-            <div className="container" style={{ paddingLeft: '20%' }} >
-                <div className="row " style={{ marginBottom: '10px', marginTop: '30px', marginLeft:'-150px' }}>
+            <div className="gout-container" style={{ paddingLeft: '20%' }} >
+                <div className="row " style={{ marginBottom: '10px', marginTop: '30px', marginLeft:'-80px' }}>
+                    <div id="ela">
                     <div className="gout-main" style={{backgroundColor:'white', marginTop:'20px',marginLeft:'-20px'}}>
                         <img src={Elacin} style={{ width: '200px', marginLeft: 'auto', marginRight: 'auto', display: 'block' ,height:'200px'}} />
                         <span style={{ textAlign: 'center', marginBottom: '-3px', color: '#f4007b', textTransform: 'uppercase' }}>
@@ -30,7 +31,9 @@ const Gout = () => {
                             <p style={{marginTop:'20px',color:'black' ,fontSize:'13px'}}><span style={{fontWeight:'bold'}}>Packing:</span> Box  of 30 Tablets</p>
                         </span>
                     </div>
-                    <div className="gout-main" style={{backgroundColor:'white', marginLeft:'53%', marginTop:'-54%'}}>
+                    </div>
+                    <div id="mac">
+                    <div className="gout-main" style={{backgroundColor:'white', marginLeft:'53%', marginTop:'5%'}}>
                         <img src={Macarth} style={{ width: '200px', marginLeft: 'auto', marginRight: 'auto', display: 'block', height:'200px' }} />
                         <span style={{ textAlign: 'center', marginBottom: '-3px', color: '#f4007b', textTransform: 'uppercase' }}>
                             <h3 style={{ fontWeight: '1000', fontSize: '50px' }}>MACARTH</h3>
@@ -39,6 +42,7 @@ const Gout = () => {
                             <p style={{ fontSize: '18px' }}>Etoricoxib Tablets</p>
                             <p style={{marginTop:'20px',color:'black' ,fontSize:'13px'}}><span style={{fontWeight:'bold'}}>Packing:</span> Box  of 30 Tablets</p>
                         </span>
+                    </div>
                     </div>
                 </div>
             </div>

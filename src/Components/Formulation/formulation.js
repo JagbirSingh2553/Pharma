@@ -33,7 +33,7 @@ const Formulation = () => {
                     <div className="col-sm-4 col-xs-4" >
                         <div className="generics">
                         <Link to="/generics">
-                            <img src={generics} className="img"
+                            <img src={generics} className="image"
                                 style={{ width: '250px', transition: '.5s', height: '80px', marginLeft: '70%', marginTop: '20%' }} />
                         </Link>
                         </div>

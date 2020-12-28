@@ -1,6 +1,6 @@
 
-.header-style{
-    background-image: linear-gradient(to right , white,#cce8e3);
+.header{
+    background-image: url(../../../../images/h.png);
 }
 
 .gyan-main{
@@ -21,14 +21,23 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1); 
 }
-
+.under{
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: -10px;
+    font-weight: bolder;
+    font-family: auto;
+    font-size: 40px;
+    color: darkslateblue;
+    /* margin-left: -10px;
+    margin-right: 10px; */
+}
 @media(max-width:700px){
 
     
-.header-style{
-    background-image: linear-gradient(to right , white,#cce8e3);
-}
-
+    .header{
+        background-image: url(../../../../images/h.png);
+    }
 .gyan-main{
    margin-left: 20px;
    width: 300px;

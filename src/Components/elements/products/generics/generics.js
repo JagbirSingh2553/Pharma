@@ -7,8 +7,9 @@ const Generics = () => {
         <>
             <Header />
                 <div style={{ width: '100%' }}>
-                    <div className="header-style" style={{ width: '100%' }}>
+                    <div className="header" style={{ width: '100%' }}>
                         <div className="head">Generics</div>
+                        <div className="under">_</div>
                         <div className="content">
                             <a>Lorem Ipsum is simply dummytext of he pTnting and 'typesett'g industry. Lorem Ipsum has been the industry's standard dummy tex eveTsince the '150', when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</a>
                         </div>

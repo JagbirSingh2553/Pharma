@@ -10,8 +10,16 @@ import diuretics from '../../images/formulation_images/diuretics.png';
 import dermatology from '../../images/formulation_images/dermatology.png';
 import goutmanagement from '../../images/formulation_images/goutmanagement.png';
 import main from '../../images/formulation_images/main.png';
+import { useMediaQuery } from 'react-responsive';
 
 const Formulation = () => {
+
+    const isDesktoporLaptop = useMediaQuery({minDeviceWidth:1224});
+    const isBigScreen = useMediaQuery({minDeviceWidth:1824});
+    const isTabletOrMobile = useMediaQuery({maxWidth:1224});
+    const isTabletOrMobileDevice = useMediaQuery({maxDeviceHeight:1224});
+    const Portrait = useMediaQuery({orientation:'portrait'});
+    const isRetina = useMediaQuery({minResolution:'2dppx'})
     return (
         < >
 <div style={{backgroundColor:'white'}}>

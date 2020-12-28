@@ -14,7 +14,7 @@
     text-align: center;
     font-weight: bold;
     color: #b04642;
-    font-style:normal;
+    font-style: normal;
     font-size: 35px;
     /* padding:1% ; */
 }
@@ -109,7 +109,7 @@
     display: inline;
     font-family: auto;
     font-size: 40px;
-    font-weight:lighter;
+    font-weight: lighter;
     margin-left: -10px;
     margin-right: 10px;
 }
@@ -183,7 +183,6 @@
         height: auto;
         width: 100%;
     }
-
     .logo {
         text-align: center;
         height: 100PX;
@@ -224,7 +223,7 @@
         text-align: center;
         width: 100%;
         margin: 0%;
-        margin-top:-20px;
+        margin-top: -20px;
     }
     .heading {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -254,7 +253,6 @@
         height: 100vh;
         width: 100%;
     }
-
     .logo {
         text-align: center;
         height: 100PX;
@@ -295,7 +293,7 @@
         text-align: center;
         width: 100%;
         margin: 0%;
-        margin-top:-20px;
+        margin-top: -20px;
     }
     .heading {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -312,3 +310,134 @@
         color: white;
     }
 }
+
+@media(min-width:2000px) {
+    .main {
+        margin: 0%;
+        padding: 0%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url('../../images/bgimage.png');
+        height: 100vh;
+        width: 100%;
+    }
+    .color {
+        text-align: center;
+        font-weight: bold;
+        color: #b04642;
+        font-style: normal;
+        font-size: 60px;
+  
+    }
+    .logomanage {
+        text-align: center;
+        margin-top: 15%;
+        padding: 40px;
+    }
+    .logo {
+        padding: 0%;
+        text-align: center;
+        height: 250px;
+        width: 250px;
+        margin-top: -10%;
+    }
+    .img {
+        height: 60px;
+        width: 300px;
+        padding: 0%;
+    }
+    .section {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .tag {
+        text-align: center;
+        font-style: normal;
+        margin: 0%;
+        padding: 0%;
+    }
+    .heading {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        word-spacing: 0.1cm;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 35px;
+        font-weight: bolder;
+        font-family: unset;
+    }
+    .para {
+        text-align: center;
+        margin: 0;
+        color: black;
+        font-size: 25px;
+    }
+    .btn {
+        -webkit-transition-duration: 0.9s;
+        transition-duration: 0.4s;
+        font-weight: normal;
+        font-size: 25px;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .3);
+        border-radius: 2px;
+        margin: 10px;
+        text-align: center;
+        opacity: 1;
+        z-index: 1;
+        height: 90px;
+        width: 270px;
+    }
+    .btn:hover {
+        background-color: #c42c2cbe;
+        color: white;
+    }
+    .inline-button {
+        text-align: center;
+        width: 100%;
+        margin: 0%;
+        margin-top: 6px;
+    }
+    .info {
+        text-align: center;
+        margin-top: -35px;
+    }
+    .slash {
+        display: inline;
+        font-family: auto;
+        font-size: 80px;
+        font-weight: lighter;
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+    .animation {
+        font-weight: bolder;
+        font-style: italic;
+        display: inline;
+        text-align: center;
+        color: #b04642;
+        font-style: italic;
+        font-size: 40px;
+    }
+    #ani {
+        animation-duration: 3s;
+        animation-name: slidein;
+        font-weight: lighter;
+    }
+    @keyframes slidein {
+        from {
+            margin-left: 150%;
+            width: 100%;
+            opacity: 0%;
+        }
+        to {
+            
+            width: 100%;
+            opacity: 100%;
+            margin-right: 150%;
+        }
+    }
+}
+

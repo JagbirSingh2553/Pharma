@@ -24,9 +24,6 @@
 }
 .header-formulation{
     background-image: url('../../images/h.png');
-    /* background-image: linear-gradient(to right , white,#cce8e3); */
-    /* background-image: url(../../images/h.png); */
-
 }
 .main-image-size{
     height: 400px;
@@ -140,4 +137,83 @@
       transform: scale(1.2); 
     }    
     
+}
+
+@media(min-width:1400px){
+    .generics{
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .goutmanagement{
+        margin-left: -5%;
+        margin-top: 0%;
+        margin-right: -1%;
+    }
+    .dermatology{
+        margin-left: 10%;
+        margin-top: 0%;
+        margin-right: 1%;
+    }
+    .diuretics{
+        margin-top: 0%;
+        margin-left: -7%;
+        margin-right: 10%;
+    }
+    .gyanecology{
+        margin-left: 50%;
+        margin-top: -5%;
+        margin-right: 20%;
+    }
+    .vitamac{
+        margin-top: 1%;
+        margin-left: 0%;
+        margin-right: -20%;
+    }
+    .image:hover{
+        -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.2); 
+    }   
+}
+
+@media(min-width:1800px){
+    /* .main_image{
+        margin-left: -10%;
+        margin-right: -10%;
+    } */
+    .generics{
+        margin-left: 17%;
+        margin-top: 7%;
+        margin-bottom: -10%;
+    }
+    .goutmanagement{
+        margin-left: -10%;
+        margin-top:3%;
+        margin-right: -1%;
+    }
+    .dermatology{
+        margin-left: 22%;
+        margin-top: -1%;
+        margin-right: 1%;
+    }
+    .diuretics{
+        margin-top: -4%;
+        margin-left: -18%;
+        margin-right: 10%;
+    }
+    .gyanecology{
+        margin-left: 60%;
+        margin-top: -5%;
+        margin-right: 20%;
+    }
+    .vitamac{
+        margin-top: 6%;
+        margin-left: 0%;
+        margin-right: -60%;
+    }
+    .image:hover{
+        -ms-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.2); 
+    }   
 }

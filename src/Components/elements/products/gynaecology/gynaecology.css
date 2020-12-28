@@ -1,5 +1,5 @@
 
-.header{
+.header-gynaecology{
     background-image: url(../../../../images/h.png);
 }
 
@@ -35,7 +35,7 @@
 @media(max-width:700px){
 
     
-    .header{
+    .header-gynaecology{
         background-image: url(../../../../images/h.png);
     }
 .gyan-main{

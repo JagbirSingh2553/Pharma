@@ -12,7 +12,7 @@ import Navbar from "../NavBar/Navbar";
 const Header = () => {
 return(
         < >
-          <div style={{ width: '100%' }}>
+          <div style={{ width: '100%' ,backgroundColor:'white'}}>
                 <div className="formulation-main">
                     <Navbar></Navbar>
                 </div>

@@ -7,7 +7,7 @@ const Generics = () => {
         <>
             <Header />
                 <div style={{ width: '100%' }}>
-                    <div className="header" style={{ width: '100%' }}>
+                    <div className="header-generics" style={{ width: '100%' }}>
                         <div className="head">Generics</div>
                         <div className="under">_</div>
                         <div className="content">

@@ -11,7 +11,7 @@ const Gout = () => {
             <Header />
 <div style={{backgroundColor:' #e5e9f7',paddingBottom:'70px'}}>
 <div style={{ width: '100%' }}>
-                <div className="header" style={{ width: '100%' }}>
+                <div className="header-gout" style={{ width: '100%' }}>
                     <div className="head">GOut</div>
                     <div className="under">_</div>
                     <div className="content">

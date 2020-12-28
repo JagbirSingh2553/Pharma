@@ -14,15 +14,16 @@ import main from '../../images/formulation_images/main.png';
 const Formulation = () => {
     return (
         < >
-
+<div style={{backgroundColor:'white'}}>
             <Header />
+            </div>
 
             {/* #######################MIDDELE CONTENT STARTS HERE#######################
         #####################################################################
         #####################################################################*/}
             <div className="middle-background" style={{width:'100%'}}>
                 <div id="helo" style={{ width: '100%'}}>
-                    <div className="header" style={{ width: '100%',margin:'0%', padding:'0%' }}>
+                    <div className="header-formulation" style={{ width: '100%',margin:'0%', padding:'0%' }}>
                         <div className="head">Formulation</div>
                         <div className="under">_</div>
                         <div className="content">
@@ -30,6 +31,7 @@ const Formulation = () => {
                         </div>
                     </div>
                 </div>
+                <div>
                 <div className="row" style={{ width: '100%'}}>
                     <div className="col-sm-4 col-xs-4" >
                         <div className="generics">
@@ -93,6 +95,7 @@ const Formulation = () => {
                         </Link>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
             {/* #######################MIDDELE CONTENT ENDS HERE#######################
